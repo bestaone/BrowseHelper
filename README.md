@@ -5,19 +5,19 @@
 - 此时扩展工具栏中就能看到了“浏览器助手”
 
 <p align="center">
-  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/1.jpg">
+  <img width="800" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/1.jpg">
 </p>
 
 <p align="center">
-  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/2.jpg">
+  <img width="800" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/2.jpg">
 </p>
 
 <p align="center">
-  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/3.jpg">
+  <img width="800" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/3.jpg">
 </p>
 
 <p align="center">
-  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/4.jpg">
+  <img width="800" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/4.jpg">
 </p>
 
 
