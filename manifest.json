@@ -2,7 +2,7 @@
 	// 清单文件的版本，这个必须写，而且必须是2
 	"manifest_version": 2,
 	// 插件的名称
-	"name": "demo",
+	"name": "浏览器助手",
 	// 插件的版本
 	"version": "1.0.0",
 	// 插件描述
@@ -22,22 +22,15 @@
 		//"scripts": ["js/background.js"]
 	},
 	// 浏览器右上角图标设置，browser_action、page_action、app必须三选一
-	"browser_action": 
+	"browser_action":
 	{
 		"default_icon": "img/icon.png",
 		// 图标悬停时的标题，可选
-		"default_title": "这是一个示例Chrome插件",
-		"default_popup": "popup.html"
+		"default_title": "浏览器助手",
+		"default_popup": "index.html"
 	},
-	// 当某些特定页面打开才显示的图标
-	/*"page_action":
-	{
-		"default_icon": "img/icon.png",
-		"default_title": "我是pageAction",
-		"default_popup": "popup.html"
-	},*/
 	// 需要直接注入页面的JS
-	"content_scripts": 
+	"content_scripts":
 	[
 		{
 			//"matches": ["http://*/*", "https://*/*"],
@@ -76,7 +69,7 @@
 	"chrome_url_overrides":
 	{
 		// 覆盖浏览器默认的新标签页
-		"newtab": "newtab.html"
+		// "newtab": "newtab.html"
 	},
 	// Chrome40以前的插件配置页写法
 	"options_page": "options.html",
@@ -90,7 +83,7 @@
 	// 向地址栏注册一个关键字以提供搜索建议，只能设置一个关键字
 	"omnibox": { "keyword" : "go" },
 	// 默认语言
-	"default_locale": "zh_CN",
+	"default_locale": "zh_CN"
 	// devtools页面入口，注意只能指向一个HTML文件，不能是JS文件
-	"devtools_page": "devtools.html"
+	// "devtools_page": "devtools.html"
 }

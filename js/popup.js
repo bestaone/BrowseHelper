@@ -41,7 +41,7 @@ $('#set_background_title').click(e => {
 $('#custom_window_size').click(() => {
 	chrome.windows.getCurrent({}, (currentWindow) => {
 		var startLeft = 10;
-		chrome.windows.update(currentWindow.id, 
+		chrome.windows.update(currentWindow.id,
 		{
 			left: startLeft * 10,
 			top: 100,
@@ -58,7 +58,7 @@ $('#custom_window_size').click(() => {
 // 最大化窗口
 $('#max_current_window').click(() => {
 	chrome.windows.getCurrent({}, (currentWindow) => {
-		// state: 可选 'minimized', 'maximized' and 'fullscreen' 
+		// state: 可选 'minimized', 'maximized' and 'fullscreen'
 		chrome.windows.update(currentWindow.id, {state: 'maximized'});
 	});
 });
@@ -67,7 +67,7 @@ $('#max_current_window').click(() => {
 // 最小化窗口
 $('#min_current_window').click(() => {
 	chrome.windows.getCurrent({}, (currentWindow) => {
-		// state: 可选 'minimized', 'maximized' and 'fullscreen' 
+		// state: 可选 'minimized', 'maximized' and 'fullscreen'
 		chrome.windows.update(currentWindow.id, {state: 'minimized'});
 	});
 });
@@ -219,4 +219,10 @@ $('#show_notification').click(e => {
 $('#check_media').click(e => {
 	alert('即将打开一个有视频的网站，届时将自动检测是否存在视频！');
 	chrome.tabs.create({url: 'http://www.w3school.com.cn/tiy/t.asp?f=html5_video'});
+});
+
+
+
+$('.open_new_tab').click((e) => {
+	chrome.tabs.create({url: e.target.href});
 });

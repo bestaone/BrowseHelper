@@ -1,6 +1,6 @@
 //-------------------- 右键菜单演示 ------------------------//
 chrome.contextMenus.create({
-	title: "测试右键菜单",
+	title: "打开一个消息",
 	onclick: function(){
 		chrome.notifications.create(null, {
 			type: 'basic',
