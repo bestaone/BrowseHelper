@@ -3,3 +3,21 @@
 - 在“扩展程序”页面中，打开“开发者模式”
 - 在“扩展程序”页面中，点击“已解压的扩展程序”，选择第一步下载的源码文件夹
 - 此时扩展工具栏中就能看到了“浏览器助手”
+
+<p align="center">
+  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/1.jpg">
+</p>
+
+<p align="center">
+  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/2.jpg">
+</p>
+
+<p align="center">
+  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/3.jpg">
+</p>
+
+<p align="center">
+  <img width="400" src="https://earven.oss-cn-shanghai.aliyuncs.com/BrowseHelper/4.jpg">
+</p>
+
+
